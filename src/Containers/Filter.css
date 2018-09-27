@@ -1,0 +1,19 @@
+.sidebar {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.filter-options{
+    list-style: none;
+}
